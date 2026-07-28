@@ -22,8 +22,10 @@ def keep_alive():
     t.start()
 
 # Environment Variables
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+GEMINI_API_KEY = os.environ.get("
+")
+TELEGRAM_TOKEN = os.environ.get("
+")
 
 # Gemini Client
 client = genai.Client(api_key=GEMINI_API_KEY)
